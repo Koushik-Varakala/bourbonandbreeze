@@ -1,0 +1,56 @@
+/* src/components/Gallery.css */
+.gallery-section {
+  padding: 56px 0;
+  background: linear-gradient(180deg, #07110f 0%, #07110f 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.gallery-title {
+    
+  font-family: "Playfair Display", serif;
+
+  font-size: 32px;
+  color: gold;
+  margin-bottom: 24px;
+}
+
+/* viewport masks overflow */
+.gallery-viewport {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* the sliding row: flex and gap */
+.gallery-row {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  will-change: transform;
+}
+
+/* each image size — roughly 3-4 visible depending on screen */
+.gallery-row img {
+  width: 280px;       /* adjust to show more/less images on screen */
+  height: 170px;
+  object-fit: cover;
+  border-radius: 0px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-row img:hover {
+  transform: scale(1.03);
+}
+
+/* responsive adjustments */
+@media (max-width: 1024px) {
+  .gallery-row img { width: 230px; height: 150px; }
+}
+@media (max-width: 640px) {
+  .gallery-row img { width: 160px; height: 100px; }
+  .gallery-viewport { max-width: 100%; padding: 0 10px; }
+}

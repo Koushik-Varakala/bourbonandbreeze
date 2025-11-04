@@ -1,0 +1,524 @@
+{
+  "source": "https://bourbonandbreezerooftop.qsic.in/catalog/digital-menu",
+  "scraped_at": "2025-11-04",
+  "menu": {
+    "Food": {
+      "Salad": [
+        {
+          "name": "Gado Gado - Veg",
+          "description": "Refreshing and flavourful indonesian salad thats perfect for any time of year",
+          "price": 499
+        },
+        {
+          "name": "Caesar Salad - Veg",
+          "description": "Caesar salad made with romaine lettuce, croutons, parmesan cheese, and caesar dressing",
+          "price": 499
+        },
+        {
+          "name": "American Corn Salad",
+          "description": "Boiled corn with onion, tomato, pepper, lemon, and chilli.",
+          "price": 499
+        },
+        {
+          "name": "Green Salad",
+          "description": "Cucumber, carrot, and tomato with salt and pepper",
+          "price": 249
+        },
+        {
+          "name": "Gado Gado - Non Veg",
+          "description": "Refreshing and flavourful indonesian salad thats perfect for any time of year",
+          "price": 599,
+          "options": {
+            "Chicken": 499,
+            "Seafood": 599
+          }
+        },
+        {
+          "name": "Caesar Salad - Non Veg",
+          "description": "Caesar salad made with romaine lettuce, croutons, parmesan cheese, and caesar dressing",
+          "price": 599,
+          "options": {
+            "Chicken": 549,
+            "Seafood": 649
+          }
+        },
+        {
+          "name": "Grilled Chicken Jalapeno Salad",
+          "description": "Marinated grilled chicken with iceberg lettuce, jalapeño, and lemon pepper dressing.",
+          "price": 599
+        }
+      ],
+      "Desi Masala Tadka": [
+        { "name": "Onion Pakoda", "price": 399 },
+        { "name": "Roasted Peanuts Masala", "price": 299 },
+        { "name": "Masala Papad", "price": 249 },
+        { "name": "Fried Papad", "price": 199 },
+        { "name": "Roasted Penuts", "price": 299 },
+        { "name": "Chilli Paneer", "price": 499 },
+        { "name": "Chicken Pepper Roast", "description": "Pan roasted chicken with desi tadka", "price": 549 },
+        { "name": "Ghee Roasted Mutton", "description": "Mutton roasted with ghee, pepper, and curry leaves", "price": 649 },
+        { "name": "Pepper Fried Prawn", "description": "Pan fried prawns with pepper and curry leaves", "price": 649 }
+      ],
+      "From North East Asia": [
+        {
+          "name": "Honey Glazed Spicy Lotus Stem",
+          "description": "Crispy fried lotus stems tossed with spicy honey and sriracha sauce.",
+          "price": 499
+        },
+        {
+          "name": "Salt And Pepper Water Chestnuts",
+          "description": "Fried water chestnuts seasoned with black pepper and celery.",
+          "price": 499
+        },
+        {
+          "name": "Tai Pai Tee",
+          "description": "Thai style crispy corn basket.",
+          "price": 499
+        },
+        {
+          "name": "Wok Tossed Mushrooms",
+          "description": "Wild mushrooms tossed with chili oil, garlic, and soy sauce.",
+          "price": 499
+        },
+        {
+          "name": "Black Pepper Tofu",
+          "description": "Silken tofu tossed in a spicy, tangy black pepper sauce.",
+          "price": 499
+        },
+        {
+          "name": "Singapore Chili Potato",
+          "description": "Crispy fried potatoes tossed in singapore style sweet and spicy sauce.",
+          "price": 499
+        },
+        { "name": "Lon Ho Cha", "description": "Stir fried vegetables with butter, garlic, and dry chili.", "price": 499 },
+        { "name": "Crispy Tofu Mountain Chili", "description": "Crispy fried tofu tossed with spicy scallions and mountain chili.", "price": 499 },
+        { "name": "Salt And Pepper Mushrooms", "description": "Crispy mushrooms tossed with pepper, garlic, and chili flakes.", "price": 499 },
+        { "name": "Crispy Corn Salt And Pepper", "description": "Crispy corn tossed with chili, garlic, ginger, and coriander leaves.", "price": 499 },
+        { "name": "Veg Ball Manchurian", "description": "Minced vegetable balls cooked with garlic, ginger, green chili, and soy sauce", "price": 499 },
+        { "name": "Veg Ball With Hung Curd Dressing", "description": "Minced vegetable balls dressed with curd, chili, garlic, and curry leaves", "price": 499 },
+        { "name": "Hot Pepper Basil Chicken", "description": "Basil flavored black pepper chicken.", "price": 549 },
+        { "name": "Kung Pao Chicken", "description": "Crispy fried chicken tossed in a sweet and spicy sauce, topped with cashews.", "price": 549 },
+        { "name": "Malaka Style Chicken", "description": "Crispy chicken tossed with curry powder and coconut milk.", "price": 549 },
+        { "name": "Butter Garlic Prawns", "description": "Delicious butter and garlic flavored prawns.", "price": 649 },
+        { "name": "Red Chili Fish", "description": "Crispy fried basa fish with spring onions, bell peppers, and thai chili.", "price": 649 },
+        { "name": "Chili Basil Fish", "description": "Sliced fish tossed in a chili basil sauce.", "price": 649 },
+        { "name": "Thai Coconut Shrimp", "description": "Fried shrimp tossed with thai chili and coconut cream.", "price": 649 },
+        { "name": "Singapore Black Pepper Prawns", "description": "Crispy fried prawns coated in singapore style black pepper sauce.", "price": 649 },
+        { "name": "Chili Prawns", "description": "Prawns tossed with chili and garlic.", "price": 649 },
+        { "name": "Spicy Fried Chicken Wings", "description": "Crispy fried chicken wings tossed in a sour and spicy sauce.", "price": 549 },
+        { "name": "Korean Hot Pepper Chicken", "description": "Sweet and spicy gochujang sauce tossed with peanuts and garlic.", "price": 549 },
+        { "name": "Mongolian Chicken", "description": "Crispy fried chicken tossed in a pepper garlic sauce.", "price": 549 },
+        { "name": "Chili Eggs", "description": "Crispy fried eggs tossed with chili, garlic, and soy sauce.", "price": 499 },
+        { "name": "Chicken Thai Pai Tee", "description": "Minced chicken tossed with lemongrass and chili, served in a golden cup", "price": 549 }
+      ],
+      "Bit & Bites": [
+        {
+          "name": "Bruschetta",
+          "description": "Toasted piece of bread topped with tomato, basil, olive and cheese",
+          "price": 399
+        },
+        { "name": "Onion Rings", "description": "Simply marinated onion rings fried with panko crust", "price": 499 },
+        {
+          "name": "Veg Cheese Croquettes",
+          "description": "A mixture of vegetables, herbs, and spices coated in breadcrumbs and golden fried",
+          "price": 499
+        },
+        { "name": "Panko Crusted Cottage Cheese", "description": "Finger shaped paneer pieces dusted with panko crumbs and fried", "price": 499 },
+        {
+          "name": "French Fries (Salted/peri Peri)",
+          "options": { "Salted": 0, "Peri Peri": 0 },
+          "price_display": 499
+        },
+        { "name": "Cheese Chilly Toast", "description": "Slices of bread topped with chilli and mozzarella cheese", "price": 499 },
+        { "name": "Corn Cheese Balls", "description": "Toasted corn mixed with mildly spiced cheese, fried until golden.", "price": 499 },
+        { "name": "Fish N Chips", "description": "Crispy fried fish fillet served with fries and tartar sauce", "price": 649 },
+        {
+          "name": "Fish Fingers",
+          "description": "Finger shaped fish marinated with lemon and pepper, panko crusted, served with tartar sauce",
+          "price": 649
+        },
+        { "name": "Tex Mex Chicken", "description": "Herb marinated chicken coated with panko crumbs, served with sweet chilli sauce", "price": 549 },
+        { "name": "Butterfly Prawn", "description": "Crispy fried prawns served with chilli mayo", "price": 649 },
+        { "name": "Shrimp Tempura", "description": "Japanese style crunchy fried shrimp served with sweet chilli sauce", "price": 649 }
+      ],
+      "From Grilled & Skewred": [
+        { "name": "Cajun Chicken Skewered", "price": 549 },
+        { "name": "Peri Peri Chicken Skewered", "price": 549 },
+        { "name": "Vietnamese Grilled Prawns", "price": 649 },
+        { "name": "Chicken Malai Sati", "price": 549 },
+        { "name": "Pesto Marinated Fish Skewered", "price": 649 },
+        { "name": "Grilled Fish Skewered", "price": 649 },
+        { "name": "Chicken Sekwa", "price": 549 },
+        { "name": "Chicken Shish Taouk", "price": 549 },
+        { "name": "Spicy Grilled Fish Skewered", "price": 649 },
+        { "name": "Peri Peri Grilled Shrimp", "price": 649 },
+        { "name": "Cottage Cheese Skewered", "price": 499 },
+        { "name": "Heaven On Earth", "description": "Spicy marinated mushrooms cooked on the grill", "price": 499 }
+      ],
+      "Sushi Bar": [
+        { "name": "Avocado Uramaki", "description": "Roll with avocado and sesame seeds", "price": 599 },
+        { "name": "Yasai Tempura Uramaki", "description": "Vegetable tempura roll with panko crust", "price": 599 },
+        { "name": "Asparagus Tempura Maki", "description": "Crispy fried asparagus tempura with spicy mayo", "price": 599 },
+        { "name": "Cheese Yasai Maki", "description": "Green vegetables topped with cheese and smoked flavor", "price": 599 },
+        { "name": "Cheese Avocado Roll", "description": "Cream cheese roll topped with avocado salsa", "price": 599 },
+        { "name": "Rock & Roll", "description": "Shrimp tempura, cream cheese, avocado, and spicy mayo", "price": 749 },
+        { "name": "Dynamite Roll", "description": "Ebi tempura, cream cheese, and salmon", "price": 749 },
+        { "name": "Crunchy Crab Steak Sushi", "description": "Tempura fried crab stick roll with red rice", "price": 749 },
+        { "name": "Ebi Tempura Uramaki", "description": "Crispy fried shrimp tempura stuffed with rice and panko crust", "price": 649 },
+        { "name": "Philadelphia Roll Maki", "description": "Salmon, cucumber, and cream cheese", "price": 749 },
+        { "name": "Volcano Roll", "description": "Crab stuffing with cream cheese and mayo", "price": 749 },
+        { "name": "Katsu Maki", "description": "Japanese style crispy fried chicken with mayo and teriyaki dressing", "price": 649 },
+        {
+          "name": "Queen Of Salmon Maki",
+          "description": "Roll with crab, avocado, topped with salmon, cream cheese, teriyaki dressing, and salmon roe",
+          "price": 749
+        }
+      ],
+      "Tandoor Se": [
+        { "name": "Murgh Lasuni Tikka", "description": "Overnight marinated garlic flavored chicken cooked in a charcoal oven", "price": 549 },
+        { "name": "Murgh Banjara", "description": "Simply spiced marinated chicken with beetroot crust", "price": 549 },
+        { "name": "Murgh Pahadi Kebab", "description": "Boneless chicken marinated in a mixture of herbs and spices", "price": 549 },
+        { "name": "Tandoori Murgh Tikka", "description": "Boneless pieces of chicken, marinated in spiced yogurt", "price": 549 },
+        { "name": "Tangdi Kebab", "description": "Delicious grilled chicken kebabs made with chicken drumsticks, spices, yogurt, and cream, cooked over charcoal", "price": 599 },
+        {
+          "name": "Tandoori Murgh",
+          "description": "Chicken marinated in yogurt and spices, cooked in a tandoor",
+          "price_options": { "Half": 599, "Full": 799 }
+        },
+        { "name": "Achari Fish Tikka", "description": "Hung curd and pickle-marinated fish cooked in a charcoal oven", "price": 649 },
+        { "name": "Paneer Tikka", "price": 499 },
+        { "name": "Tandoori Malai Broccoli", "price": 499 },
+        { "name": "Hariyali Paneer Tikka", "price": 499 },
+        { "name": "Tandoori Kumbh", "description": "Mushrooms marinated in tandoori masala", "price": 499 }
+      ],
+      "Ramen Your Bowl": [
+        { "name": "Tantamen Ramen Noodles - Veg", "description": "Korean style, sesame soya based spicy creamy soup with noodles", "price": 549 },
+        { "name": "Kimchi Ramen Noodles - Veg", "price": 549 },
+        { "name": "Dan Dan Main Noodles - Veg", "description": "Spicy, semi soupy dan dan noodles served with minced vegetables", "price": 549 },
+        { "name": "Peri Peri Ramen - Veg", "price": 549 },
+        { "name": "B&b Special - Non Veg", "description": "Extra hot and spicy ramen noodles", "price": 749 },
+        {
+          "name": "Tantamen Ramen Noodles - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Kimchi Ramen Noodles - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Dan Dan Main Noodles - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Peri Peri Ramen - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        { "name": "Katsu Ramen", "price": 599 },
+        {
+          "name": "B&b Special - Non Veg (Alternate)",
+          "options": { "Chicken": 749, "Seafood": 799 }
+        }
+      ],
+      "Rice & Noodles": [
+        { "name": "Noodles (Choice Of Flavor) - Veg", "description": "Hakka, chilli garlic, schezwan, butter garlic", "price": 499 },
+        { "name": "Fried Rice (Choice Of Flavor) - Veg", "price": 499 },
+        { "name": "Manchurian Gravy - Veg", "price": 499 },
+        { "name": "Chilli Gravy - Veg", "price": 499 },
+        { "name": "Mixed Veg Hot Garlic Gravy", "price": 499 },
+        {
+          "name": "Noodles (Choice Of Flavor) - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Fried Rice (Choice Of Flavor) - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Manchurian Gravy - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        },
+        {
+          "name": "Chilli Gravy - Non Veg",
+          "options": { "Chicken": 599, "Seafood": 649 }
+        }
+      ],
+      "Korean Hot Dog": [
+        { "name": "Chicken Corn Dog (Per Piece)", "price": 299 },
+        { "name": "Cheese Chicken Corn Dog", "price": 299 },
+        { "name": "Pink Sugar Chicken / Mix", "price": 299 },
+        { "name": "Pink Sugar Crusted Cheese", "price": 249 },
+        { "name": "Cheese Potato (Per Piece)", "price": 249 },
+        { "name": "Cheese Corn Dog (Per Piece)", "price": 249 }
+      ],
+      "Pizzaria": [
+        {
+          "name": "Margarita Pizza",
+          "sizes": { "9 Inch": 549, "12 Inch": 649 }
+        },
+        { "name": "Green Garden Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Paneer Tikka Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Veg Manchurian Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Pesto Veg Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Corn Cheese Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Chicken BBQ Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Chicken Jalapeno Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Chicken Tikka Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Chicken Bolognese Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Chicken Pesto Pizza", "sizes": { "9 Inch": 549, "12 Inch": 649 } },
+        { "name": "Pollo Al Funghi", "sizes": { "9 Inch": 549, "12 Inch": 649 } }
+      ],
+      "Pasta Bar": [
+        { "name": "Penne Alfredo - Veg", "price": 499 },
+        { "name": "Penne Arrabiata - Veg", "price": 499 },
+        { "name": "Penne Pesto - Veg", "price": 499 },
+        { "name": "Penne Mix Sauce - Veg", "price": 499 },
+        { "name": "Spaghetti Arrabbiata - Veg", "price": 499 },
+        { "name": "Spaghetti Aglio Olio - Veg", "price": 499 },
+        { "name": "Spaghetti Alfredo - Veg", "price": 499 },
+        {
+          "name": "Penne Alfredo - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        },
+        {
+          "name": "Penne Arrabiata - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        },
+        {
+          "name": "Penne Pesto - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        },
+        {
+          "name": "Penne Mix Sauce - Non Veg",
+          "options": { "Chicken": 499, "Seafood": 649 }
+        },
+        {
+          "name": "Spaghetti Arrabbiata - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        },
+        {
+          "name": "Spaghetti Aglio Olio - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        },
+        {
+          "name": "Spaghetti Alfredo - Non Veg",
+          "options": { "Chicken": 549, "Seafood": 649 }
+        }
+      ],
+      "Western": [
+        { "name": "Chicken Pepper Steak", "price": 599 },
+        { "name": "Grilled Chicken With Red Wine Sauce", "price": 599 },
+        { "name": "Fillet Of Basa", "price": 649 },
+        { "name": "Chicken A La King", "price": 599 },
+        { "name": "Chicken Burgundy", "price": 599 },
+        { "name": "Chicken Steak", "price": 599 },
+        { "name": "Stroganoff - Veg", "price": 599 },
+        { "name": "Stroganoff - Non Veg", "price": 599, "options": { "Chicken": 549, "Seafood": 599 } },
+        { "name": "Cottage Cheese Steak - Veg", "price": 599 }
+      ],
+      "Breads": [
+        { "name": "Butter Naan", "price": 99 },
+        { "name": "Butter Roti", "price": 99 },
+        { "name": "Plain Kulcha", "price": 129 },
+        { "name": "Masala Kulcha", "price": 129 },
+        { "name": "Lachha Paratha", "price": 129 },
+        { "name": "Garlic Naan", "price": 129 }
+      ],
+      "Main Course": [
+        { "name": "Murgh Makhani", "description": "Charcoal roasted chicken cooked in a creamy cashew gravy", "price": 599 },
+        { "name": "Kadai Chicken", "price": 599 },
+        { "name": "Home Made Chicken Curry", "price": 599 },
+        { "name": "Murgh Adrak Masala", "price": 599 },
+        { "name": "Sabzi Makhani", "price": 549 },
+        { "name": "Mutter Paneer", "price": 549 },
+        { "name": "Paneer Butter Masala", "price": 549 },
+        { "name": "Palak Paneer", "price": 549 },
+        { "name": "Sabzi Hariyali", "price": 549 },
+        { "name": "Dal Of The Day", "price": 399 }
+      ],
+      "Curry": [
+        { "name": "Nonya Curry - Veg", "price": 499 },
+        { "name": "Burmese Curry - Veg", "price": 499 },
+        { "name": "Thai Red Curry - Veg", "price": 499 },
+        { "name": "Thai Green Curry - Veg", "price": 499 },
+        { "name": "Jasmine Rice", "price": 399 },
+        { "name": "Steam Rice", "price": 299 },
+        { "name": "Nonya Curry - Non Veg", "options": { "Chicken": 549, "Seafood": 649 } },
+        { "name": "Burmese Curry - Non Veg", "options": { "Chicken": 449, "Seafood": 549 } },
+        { "name": "Thai Red Curry - Non Veg", "options": { "Chicken": 549, "Seafood": 649 } },
+        { "name": "Thai Green Curry - Non Veg", "options": { "Chicken": 549, "Seafood": 649 } }
+      ],
+      "Steam Basket": [
+        { "name": "Steam Momo - Veg", "price": 499 },
+        { "name": "Fried Momo - Veg", "price": 499 },
+        { "name": "Schezwan Fried Momo - Veg", "price": 499 },
+        { "name": "Jhol Momo - Veg", "price": 499 },
+        { "name": "Pan Fried Momo - Veg", "price": 499 },
+        { "name": "Soup Momo - Veg", "price": 549 },
+        { "name": "Steam Momo - Chicken", "price": 549 },
+        { "name": "Fried Momo - Chicken", "price": 549 },
+        { "name": "Schezwan Fried Momo - Chicken", "price": 549 },
+        { "name": "Jhol Momo - Chicken", "price": 549 },
+        { "name": "Pan Fried Momo - Chicken", "price": 549 },
+        { "name": "Soup Momo - Chicken", "price": 549 }
+      ],
+      "Open Bao (3pcs)": [
+        { "name": "Grilled Chicken Bao", "price": 549 },
+        { "name": "Hot Pepper Chicken Bao", "price": 549 },
+        { "name": "Prawn Tempura Bao", "price": 599 },
+        { "name": "Peri Peri Chicken Bao", "price": 549 },
+        { "name": "Katsu Chicken Bao", "price": 549 },
+        { "name": "Tangy Lotus Bao", "price": 499 },
+        { "name": "Cottage Cheese Black Pepper Bao", "price": 499 },
+        { "name": "Paneer Tikka Bao", "price": 499 }
+      ]
+    },
+    "Beverages": {
+      "Mocktails": [
+        { "name": "Baby Breaths", "description": "Kiwi, apple juice, fresh cream", "price": 499 },
+        { "name": "Citrus Yuzu", "description": "Lime juice, orange juice, yuzu, passion fruits", "price": 499 },
+        { "name": "Muskland Beach", "description": "Muskmelon, coconut syrup, lime juice", "price": 499 },
+        { "name": "Blue Lagoon", "description": "Lime, blue curacao", "price": 499 },
+        { "name": "Anise And Alice", "description": "Lime juice, cranberry juice, mango puree, star anise syrup", "price": 499 },
+        { "name": "Black Widow", "description": "Black current, black salt, lime, cranberry juice", "price": 499 },
+        { "name": "Virgin Mojito", "description": "Fresh mint, fresh lime, crushed ice, soda", "price": 499 },
+        { "name": "Masala Coke", "price": 499 },
+        { "name": "Fruit Punch", "price": 499 }
+      ],
+      "Soft Beverages": [
+        { "name": "Water Bottle", "price": 60 },
+        { "name": "Fresh Lime", "price": 299 },
+        { "name": "Soft Drinks / Water / Soda", "price": 200 },
+        { "name": "Canned Juice", "price": 250 },
+        { "name": "Diet Coke", "price": 250 },
+        { "name": "Red Bull", "price": 499 },
+        { "name": "Tonic Water", "price": 200 },
+        { "name": "Ginger Ale", "price": 250 },
+        { "name": "Soda (small)", "price": 100 }
+      ]
+    },
+    "Drinks": {
+      "Scotch Whiskey (30 ml)": [
+        { "name": "Black Label", "price": 700 },
+        { "name": "Chivas Regal 12 Years", "price": 700 },
+        { "name": "Red Label", "price": 550 },
+        { "name": "Ballantines Finest", "price": 550 }
+      ],
+      "Irish Whiskey (30 ml)": [{ "name": "Jameson", "price": 550 }],
+      "Bourbon (30 ml)": [
+        { "name": "Jim Beam", "price": 700 },
+        { "name": "Jack Daniels Tennessee Whiskey", "price": 700 }
+      ],
+      "Japanese Whiskey (30 ml)": [{ "name": "Suntory Whiskey", "price": 800 }],
+      "Single Malt Whisky (30 ml)": [
+        { "name": "The Ardmore", "price": 800 },
+        { "name": "Glenmorangie 10 Years", "price": 1100 },
+        { "name": "Glenfiddich 12 Years", "price": 1000 },
+        { "name": "Glenlivet 12 Years", "price": 1000 },
+        { "name": "Talisker 10 Years", "price": 850 }
+      ],
+      "Vodka (30 ml)": [
+        { "name": "Smirnoff", "price": 400 },
+        { "name": "Absolut", "price": 550 },
+        { "name": "Grey Goose", "price": 599 },
+        { "name": "Ciroc", "price": 800 },
+        { "name": "Ketel One", "price": 650 }
+      ],
+      "Tequila (30 ml)": [{ "name": "Buen Amigo", "price": 700 }],
+      "Brandy & Cognac (30 ml)": [
+        { "name": "Manson House", "price": 350 },
+        { "name": "Kyron", "price": 400 },
+        { "name": "St Remy Martin Vsop", "price": 450 }
+      ],
+      "Gin": [
+        { "name": "Greater Than", "price": 499 },
+        { "name": "Bombay Sapphire", "price": 600 },
+        { "name": "Beefeater", "price": 600 }
+      ],
+      "Rum": [
+        { "name": "Old Monk Classic XXX Rum", "price": 350 },
+        { "name": "Bacardi Carta Blanca", "price": 400 }
+      ],
+      "Wine By Glass": [
+        { "name": "Jacob Creek Shiraz", "price": 999 },
+        { "name": "Jacob Chenin Blanc", "price": 999 },
+        { "name": "Sula White", "price": 800 },
+        { "name": "Sula Red", "price": 800 },
+        { "name": "Sula Brut (bottle?)", "price": 6000 }
+      ],
+      "Liqueur": [
+        { "name": "Baileys", "price": 600 },
+        { "name": "Kahlua", "price": 700 },
+        { "name": "Campari", "price": 700 },
+        { "name": "Jagermeister", "price": 900 }
+      ],
+      "Beer": [
+        { "name": "Kingfisher Premium (Bottle)", "price": 450, "bucket_price": 2500 },
+        { "name": "Kf Ultra (Bottle 330ml)", "price": 499, "bucket_price": 2700 },
+        { "name": "Budweiser (Bottle 330ml)", "price": 499, "bucket_price": 2700 },
+        { "name": "Carlsberg (Bottle 330 ml)", "price": 499, "bucket_price": 2700 },
+        { "name": "Budweiser (Can 500ml)", "price": 700, "bucket_price": 3400 },
+        { "name": "Heineken", "price": 650 },
+        { "name": "Corona", "price": 850 },
+        { "name": "Hoegaarden", "price": 850 },
+        { "name": "Bira Blonde", "price": 650 },
+        { "name": "Bira White", "price": 700 },
+        {
+          "name": "Kf Draught",
+          "price_variants": { "Glass": 399, "Pitcher": 1800, "Tower": 3200 }
+        },
+        {
+          "name": "Bira (Draught)",
+          "price_variants": { "Glass": 499, "Pitcher": 2200, "Tower": 3800 }
+        }
+      ],
+      "Breezer": [{ "name": "Cranberry Breezer", "price": 499 }],
+      "Whiskey (Domestic / IMFL)": [
+        { "name": "Blender Pride", "price": 350 },
+        { "name": "Teacher Highland Cream", "price": 450 },
+        { "name": "William Lawson", "price": 450 },
+        { "name": "100 Piper", "price": 450 },
+        { "name": "Black Dog 8 Yrs", "price": 450 },
+        { "name": "Teachers 50", "price": 530 },
+        { "name": "Vat 69", "price": 530 },
+        { "name": "Black & White", "price": 530 }
+      ],
+      "Shooter": [
+        { "name": "Kamikaze", "price": 650 },
+        { "name": "B52", "price": 750 },
+        { "name": "Lime Drop", "price": 750 },
+        { "name": "Head Shot", "price": 750 },
+        { "name": "Fire Lamborghini", "price": 3000 },
+        { "name": "Jagerbomb", "price": 1200 }
+      ],
+      "B&B Signature Cocktails": [
+        { "name": "Bourbon & Breeze", "description": "Jim beam, pineapple cordial, spice syrup", "price": 850 },
+        { "name": "Love At First Sight", "description": "Orange juice, spice syrup, bitters, vodka", "price": 850 },
+        { "name": "Clear Mind", "description": "Sweet & sour kaffir lime gin", "price": 850 },
+        { "name": "Mood Swing", "description": "White rum, mango juice, hibiscus syrup", "price": 850 },
+        { "name": "Nightqueen", "description": "Gin jasmine infused, sweet & sour, chamomile tea", "price": 850 },
+        { "name": "OP", "description": "Lime juice, peach syrup, muskmelon, vodka", "price": 850 },
+        { "name": "Now You See Me", "description": "Lime juice, mint syrup, gin", "price": 850 },
+        { "name": "Jalapeno Duet", "description": "Jalapeno twist, lime", "price": 850 },
+        { "name": "Vodka Espresso", "description": "Coffee, chocolate syrup, vodka", "price": 850 },
+        { "name": "Agave", "description": "Rose tea, lime juice, yuzu puree, elder flower syrup, tequila", "price": 850 },
+        { "name": "Thymes N Vanilla", "price": 850 }
+      ],
+      "Classic Cocktails": [
+        { "name": "Long Ice Land Ice Tea", "price": 999 },
+        { "name": "Bull Frogg", "price": 1100 },
+        { "name": "Negroni", "price": 750 },
+        { "name": "Old Fashion", "price": 750 },
+        { "name": "Cosmopolitan", "price": 750 },
+        { "name": "Cuba Libre", "price": 750 },
+        { "name": "Mojito", "price": 750 },
+        { "name": "Sex On The Beach", "price": 750 },
+        { "name": "Daiquiri", "price": 750 },
+        { "name": "Screwdriver", "price": 750 },
+        { "name": "Margarita", "price": 750 },
+        { "name": "Tequila Sunrise", "price": 750 },
+        { "name": "Caipiroska", "price": 750 },
+        { "name": "Pina Colada", "price": 750 }
+      ]
+    }
+  }
+}
